@@ -14,7 +14,7 @@
 #define LWR 2
 #define RSE 3
 #define ADJ 4
-#define NUM 5
+//#define NUM 5
 
 / {
 
@@ -108,13 +108,13 @@
                         >;
                 };
                 
-		numpad_layer {
-			bindings = <
-&trans  &none     &kp F7      &kp F8       &kp F9       &none       &none   &kp N7       &kp N8       &kp N9      &none &trans
-&trans  &kp LGUI  &hm LALT F4 &hm LSHFT F5 &hm RCTRL F6 &none       &kp DOT &hm LCTRL N4 &hm RSHFT N5 &hm LALT N6 &hm LGUI DOT &trans
-&trans  &none     &kp F1      &kp F2       &kp F3       &none       &kp N0  &kp N1       &kp N2       &kp N3      &trans $trans
-                               &trans       &trans      &trans      &trans  &trans       &trans
-			>;
-		};
+//		numpad_layer {
+//			bindings = <
+//&trans  &none     &kp F7      &kp F8       &kp F9       &none       &none   &kp N7       &kp N8       &kp N9      &none &trans
+//&trans  &kp LGUI  &hm LALT F4 &hm LSHFT F5 &hm RCTRL F6 &none       &kp DOT &hm LCTRL N4 &hm RSHFT N5 &hm LALT N6 &hm LGUI DOT &trans
+//&trans  &none     &kp F1      &kp F2       &kp F3       &none       &kp N0  &kp N1       &kp N2       &kp N3      &trans $trans
+//                               &trans       &trans      &trans      &trans  &trans       &trans
+//			>;
+//		};
         };
 };
