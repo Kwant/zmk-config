@@ -29,10 +29,14 @@
                 bindings = <&kp>, <&kp>;
             };
 	    
-	    tth: tap_tap_hold {
-                compatible = "zmk,behavior-layer-tap";
+	   tth: tap_tap_hold {
+                compatible = "zmk,behavior-hold-tap";
                 label = "TAP_TAP_HOLD";
+                #binding-cells = <2>;
+                tapping-term-ms = <200>;
                 quick_tap_ms = <200>;
+                flavor = "tap-preferred";
+                bindings = <&mo>, <&kp>;
             };
         };
 	
