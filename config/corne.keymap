@@ -57,7 +57,7 @@
    &kp TAB    &kp Q       &kp W      &kp F       &kp P       &kp G     &kp J  &kp L       &kp U       &kp Y       &kp SEMI      &kp BSPC
    &kp LCTRL  &hm LGUI A  &hm LALT R &hm LSHFT S &hm LCTRL T &kp D     &kp H  &hm LCTRL N &hm LSHFT E &hm LALT I  &hm LGUI O    &kp SQT
    &kp LSHFT  &kp Z       &kp X      &kp C       &kp V       &kp B     &kp K  &kp M       &kp COMMA   &kp DOT     &kp FSLH      &kp RSHFT
-                         &mt LALT ESC &lt LWR TAB    &lt RSE SPACE     &lt LWR RET     &lt RSE BKSP  &kp LGUI
+                         &mt LALT ESC &lt LWR TAB    &lt RSE SPACE     &lt LWR RET     &hth RSE BKSP  &kp LGUI
                         >;
                 };
                 
