@@ -23,7 +23,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 label = "HOMEROW_MODS";
                 #binding-cells = <2>;
-                tapping-term-ms = <200>;
+                tapping-term-ms = <250>;
                 quick_tap_ms = <0>;
                 flavor = "tap-preferred";
                 bindings = <&kp>, <&kp>;
@@ -103,7 +103,7 @@
    &kp  ESC  &kp F1       &kp F2       &kp F3        &kp F4        &kp F5       &kp N1   &kp N0         &kp KP_MULTIPLY &kp INS        &kp DEL        &kp BSPC
    &kp LCTRL &hm LGUI F6  &hm LALT F7  &hm LSHFT F8  &hm LCTRL F9  &kp F10      &kp LEFT &hm LCTRL DOWN &hm LSHFT UP    &hm LALT RIGHT &hm LGUI TILDE &kp GRAVE
    &kp LSHFT &kp F11      &kp F12      &tog NUM      &kp PSCRN     &kp CAPS     &kp HOME &kp PG_DN      &kp PG_UP       &kp END        &kp DQT        &kp BSLH 
-                                       &trans        &lt ADJ TAB   &kp SPACE    &kp RET  &trans         &kp RALT
+                                       &trans        &lt ADJ TAB   &trans   &lt ADJ RET  &trans         &kp RALT
                         >;
                 };
                 
