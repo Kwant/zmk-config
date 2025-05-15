@@ -244,9 +244,9 @@ ZMK_BASE_LAYER(symbol,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
    &hml LGUI EXCL &hml LALT AT  &hml LSHFT HASH &hml LCTRL DLLR &kp PRCNT , &kp CARET    &hmr LCTRL AMPS  &hmr RSHFT STAR  &hmr LALT LPAR  &hmr LGUI RPAR ,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp Z         &kp X         &kp C         &kp V         &kp B       ,   &kp K         &kp M         &comma_morph  &dot_morph    &qexcl      ,
+    &kp EQUAL     &kp MINUS     &kp PLUS       &kp LBRC     &kp RBRC    ,   &kp LBKT       &kp RBKT      &kp PIPE    &kp SQT       &kp BSLH      ,
 //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                              &lt QWE TAB  &lt_spc NAV 0 ,   &lt FN RET   &lt NAV BSPC
+                                               ___        &lt_spc NAV 0 ,   &lt FN RET      ___
 //                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯
 )
 
