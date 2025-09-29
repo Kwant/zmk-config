@@ -65,6 +65,7 @@
         cpi = <600>;
 	invert-y;
 	swap-xy;
+	invert-x;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
