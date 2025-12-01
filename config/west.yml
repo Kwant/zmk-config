@@ -2,7 +2,7 @@ manifest:
 
   defaults:
     remote: urob
-    revision: v0.3 # Pin everything to v0.2
+    revision: v0.3 # Pin everything to v0.3
   
   remotes:
     - name: zmkfirmware
@@ -36,8 +36,7 @@ manifest:
     - name: zmk-tri-state
       path: modules/zmk/tri-state
 
-    # Temporarily overload Zephyr until
-    # https://github.com/zmkfirmware/zephyr/pull/40 is merged.
+
     - name: zephyr
       remote: zmkfirmware
       revision: v3.5.0+zmk-fixes
