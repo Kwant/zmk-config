@@ -2,7 +2,7 @@ manifest:
 
   defaults:
     remote: urob
-    revision: next # Pin everything to v0.3
+    revision:  v0.3 # Pin everything to v0.3
   
   remotes:
     - name: zmkfirmware
@@ -29,6 +29,7 @@ manifest:
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
       path: modules/zmk/auto-layer
+      revision: next
     - name: zmk-helpers
       path: modules/zmk/helpers
     - name: zmk-leader-key
